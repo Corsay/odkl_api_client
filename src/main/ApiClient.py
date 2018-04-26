@@ -20,9 +20,9 @@ class ApiClient:
     """
     FIELDS = ['application_key', 'fields', 'format', 'method', 'register_as_guest', 'uid', 'uids']
     API_URL = 'https://api.ok.ru/fb.do?'
-    APPLICATION_KEY = 'CBALPBHMEBABABABA'
-    APPLICATION_SECRET_KEY = '44D5CBE7924223654731D511'
-    ACCESS_TOKEN = 'tkn1Y1iJTTKQI1lr3sEv2Fc18Nllbrao4tV16fJENco1eMY2zgzuGvmq2cbY5PfT36FY7'
+    APPLICATION_KEY = None
+    APPLICATION_SECRET_KEY = None
+    ACCESS_TOKEN = None
 
     def __init__(self, api_url=API_URL, app_key=APPLICATION_KEY, app_secret_key=APPLICATION_SECRET_KEY, access_token=ACCESS_TOKEN):
         self.api_url = api_url
